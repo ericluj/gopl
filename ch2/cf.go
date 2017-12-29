@@ -6,7 +6,7 @@ import (
     "os"
     "strconv"
 
-    "./tempconv"
+    "./tempconv" // 相对路径导入,默认的是从$GOROOT来导入的
 )
 
 func main() {
